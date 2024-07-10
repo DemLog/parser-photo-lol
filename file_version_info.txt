@@ -1,0 +1,32 @@
+# UTF-8
+#
+# For more details about fixed file info "ffi" fields, see:
+# http://msdn.microsoft.com/en-us/library/ms646997.aspx
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x4,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+    ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        '040904B0',
+        [StringStruct('CompanyName', 'JSOL Team'),
+        StringStruct('FileDescription', 'Program for parsing photo from LOL'),
+        StringStruct('FileVersion', '1.0.0.0'),
+        StringStruct('InternalName', 'parser_photo_lol'),
+        StringStruct('LegalCopyright', '© JSOL Team 2024'),
+        StringStruct('OriginalFilename', 'ParserPhotoLOL.exe'),
+        StringStruct('ProductName', 'Parser Photo LOL'),
+        StringStruct('ProductVersion', '1.0.0.0')])
+      ]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])])
+  ]
+)
